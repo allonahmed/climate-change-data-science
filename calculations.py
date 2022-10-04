@@ -34,12 +34,12 @@ def mean(list):
     return round(sum / len(list), 3) #2
 
 def standard_deviation(list):
-"""    function to calculate the standard deviation of dataset
-        step 1: find the mean
-        step 2: for each item, find the square of the distance
-        step 3: find the sum of all values in step 2
-        step 4: divide by the number of data points
-        step 5: take the square root"""
+    """ function to calculate the standard deviation of dataset
+    step 1: find the mean
+    step 2: for each item, find the square of the distance
+    step 3: find the sum of all values in step 2
+    step 4: divide by the number of data points
+    step 5: take the square root """
     average = mean(list) #1
     difference = []
     for i in list:
